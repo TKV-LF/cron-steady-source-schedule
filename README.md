@@ -17,16 +17,16 @@ crontab -e
 3. Add the following lines to your crontab (replace /path/to with your actual path):
 ```bash
 # Run every minute
-* * * * * cd /path/to/cron-scheduler && /usr/bin/node 1m.js >> /path/to/cron-scheduler/logs/1m.log 2>&1
+* * * * * cd /home/thuy/cron-steady-source-schedule && /usr/bin/node 1m.js >> /home/thuy/cron-steady-source-schedule/logs/1m.log 2>&1
 
 # Run every 15 minutes
-*/15 * * * * cd /path/to/cron-scheduler && /usr/bin/node 15m.js >> /path/to/cron-scheduler/logs/15m.log 2>&1
+*/15 * * * * cd /home/thuy/cron-steady-source-schedule && /usr/bin/node 15m.js >> /home/thuy/cron-steady-source-schedule/logs/15m.log 2>&1
 
 # Run every 30 minutes
-*/30 * * * * cd /path/to/cron-scheduler && /usr/bin/node 30m.js >> /path/to/cron-scheduler/logs/30m.log 2>&1
+*/30 * * * * cd /home/thuy/cron-steady-source-schedule && /usr/bin/node 30m.js >> /home/thuy/cron-steady-source-schedule/logs/30m.log 2>&1
 
 # Run every hour
-0 * * * * cd /path/to/cron-scheduler && /usr/bin/node 1h.js >> /path/to/cron-scheduler/logs/1h.log 2>&1
+0 * * * * cd /home/thuy/cron-steady-source-schedule && /usr/bin/node 1h.js >> /home/thuy/cron-steady-source-schedule/logs/1h.log 2>&1
 ```
 
 4. Create a logs directory:
