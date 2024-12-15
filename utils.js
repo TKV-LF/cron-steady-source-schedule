@@ -4,7 +4,6 @@ const UAT_URL = 'https://uat.steadyapp.dev/rehook/api/ext/schedule/cron';
 const PROD_URL = 'https://app.steadyapp.dev/rehook/api/ext/schedule/cron';
 
 async function makeApiCalls(period) {
-    log
     try {
         // Call UAT environment
         await axios.post(UAT_URL, { period });
