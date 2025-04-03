@@ -11,4 +11,4 @@ npm install
 
 # Restart the application if needed
 # Uncomment and modify the following line if you need to restart your application
-# pm2 restart your-app-name 
+# pm2 restart cron-steady-source-schedule
